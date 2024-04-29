@@ -1,21 +1,11 @@
 public class Operadores {
-    public static void main (String[] args){
+    public static void main(String[] args) {
+        int numero = - 5;
 
-        //classe Operadores.java
-    String nomeCompleto = "LINGUAGEM" + "JAVA"; //LINGUAGEMJAVA
-            
-        //qual o resultado das expressoes abaixo?
-    String concatenacao = "?"; 
-    
-    concatenacao = 1+1+1+"1"; //31
-    
-    concatenacao = 1+"1"+1+1; //1111
-    
-    concatenacao = 1+"1"+1+"1"; //1111
-    
-    concatenacao = "1"+1+1+1; //1111
-    
-    concatenacao = "1"+(1+1+1); //13
+        numero = - numero;
+
+        System.out.println(numero);
+        
     }
 }
 
