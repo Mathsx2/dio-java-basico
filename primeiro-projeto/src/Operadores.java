@@ -35,6 +35,12 @@ public class Operadores {
     simNao = numero1 != numero2;
     System.out.println("num1 é diferente do num2? " + simNao);
 
+    /*String nome1 = "MATHEUS";
+    String nome2 = new String("MATHEUS");
+
+    System.out.println(nome1.equals(nome2));
+
+    PARA TEXTO OU OBJETOS UTILIZAREMOS O EQUALS*/
     }
 }
 
